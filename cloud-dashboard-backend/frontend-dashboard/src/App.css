@@ -1,0 +1,89 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202021;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f4f6f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #111112;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0051a2;
+}
+
+select, input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #080707;
+  border-radius: 8px;
+  width: 250px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  border: 1px solid #0a0a0a;
+  text-align: center;
+}
+
+table thead {
+  background-color: #0c0c0c;
+  color: white;
+}
+
+.dark-mode table thead {
+  background-color: #161616;
+}
+
+.chart-container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.total-spend-card {
+  background-color: #121213;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dark-mode .total-spend-card {
+  background-color: #161515;
+  color: white;
+}

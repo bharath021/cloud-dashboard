@@ -1,0 +1,46 @@
+[
+  { "service": "Amazon EC2", "region": "us-east-1", "month": "March 2024", "usage_hours": 110, "cost_usd": 80.5 },
+  { "service": "Amazon S3", "region": "us-east-1", "month": "March 2024", "storage_gb": 300, "cost_usd": 18.2 },
+  { "service": "AWS Lambda", "region": "us-west-2", "month": "March 2024", "invocations": 120000, "cost_usd": 10.5 },
+  { "service": "Amazon RDS", "region": "us-east-2", "month": "March 2024", "usage_hours": 150, "cost_usd": 100.0 },
+  { "service": "Amazon CloudFront", "region": "global", "month": "March 2024", "data_transfer_gb": 700, "cost_usd": 30.4 },
+
+  { "service": "Amazon EC2", "region": "us-east-1", "month": "April 2024", "usage_hours": 95, "cost_usd": 70.0 },
+  { "service": "Amazon S3", "region": "us-west-1", "month": "April 2024", "storage_gb": 400, "cost_usd": 20.1 },
+  { "service": "AWS Lambda", "region": "us-west-2", "month": "April 2024", "invocations": 95000, "cost_usd": 8.9 },
+  { "service": "Amazon RDS", "region": "us-east-2", "month": "April 2024", "usage_hours": 130, "cost_usd": 90.0 },
+  { "service": "Amazon CloudFront", "region": "global", "month": "April 2024", "data_transfer_gb": 600, "cost_usd": 28.0 },
+
+  { "service": "Amazon DynamoDB", "region": "us-west-2", "month": "May 2024", "storage_gb": 50, "cost_usd": 15.5 },
+  { "service": "Amazon EC2", "region": "us-east-1", "month": "May 2024", "usage_hours": 130, "cost_usd": 90.7 },
+  { "service": "Amazon S3", "region": "us-east-1", "month": "May 2024", "storage_gb": 600, "cost_usd": 24.8 },
+
+  { "service": "AWS Lambda", "region": "us-east-2", "month": "June 2024", "invocations": 100000, "cost_usd": 11.1 },
+  { "service": "Amazon RDS", "region": "us-west-2", "month": "June 2024", "usage_hours": 170, "cost_usd": 120.0 },
+  { "service": "Amazon CloudFront", "region": "global", "month": "June 2024", "data_transfer_gb": 900, "cost_usd": 40.5 },
+
+  { "service": "Amazon EC2", "region": "us-east-1", "month": "July 2024", "usage_hours": 115, "cost_usd": 85.0 },
+  { "service": "Amazon S3", "region": "us-east-2", "month": "July 2024", "storage_gb": 550, "cost_usd": 23.6 },
+
+  { "service": "AWS Lambda", "region": "us-west-2", "month": "August 2024", "invocations": 110000, "cost_usd": 12.3 },
+  { "service": "Amazon RDS", "region": "us-east-2", "month": "August 2024", "usage_hours": 200, "cost_usd": 145.0 },
+
+  { "service": "Amazon CloudFront", "region": "global", "month": "September 2024", "data_transfer_gb": 800, "cost_usd": 38.5 },
+
+  { "service": "Amazon DynamoDB", "region": "us-east-1", "month": "October 2024", "storage_gb": 80, "cost_usd": 18.9 },
+  { "service": "Amazon EC2", "region": "us-west-1", "month": "October 2024", "usage_hours": 100, "cost_usd": 75.4 },
+
+  { "service": "Amazon S3", "region": "us-east-1", "month": "November 2024", "storage_gb": 650, "cost_usd": 27.3 },
+
+  { "service": "AWS Lambda", "region": "us-west-2", "month": "December 2024", "invocations": 140000, "cost_usd": 13.8 },
+
+  { "service": "Amazon RDS", "region": "us-east-2", "month": "January 2025", "usage_hours": 210, "cost_usd": 155.0 },
+
+  { "service": "Amazon CloudFront", "region": "global", "month": "February 2025", "data_transfer_gb": 1100, "cost_usd": 48.9 },
+
+  { "service": "Amazon EC2", "region": "us-east-1", "month": "March 2025", "usage_hours": 120, "cost_usd": 85.5 },
+  { "service": "Amazon S3", "region": "us-east-1", "month": "March 2025", "storage_gb": 500, "cost_usd": 22.75 },
+  { "service": "AWS Lambda", "region": "us-west-2", "month": "March 2025", "invocations": 150000, "cost_usd": 12.4 },
+  { "service": "Amazon RDS", "region": "us-east-2", "month": "March 2025", "usage_hours": 200, "cost_usd": 140.0 },
+  { "service": "Amazon CloudFront", "region": "global", "month": "March 2025", "data_transfer_gb": 1000, "cost_usd": 45.6 }
+]

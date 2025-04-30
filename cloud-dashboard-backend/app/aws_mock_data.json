@@ -1,0 +1,37 @@
+[
+  {
+    "service": "Amazon EC2",
+    "region": "us-east-1",
+    "month": "March 2025",
+    "usage_hours": 120,
+    "cost_usd": 85.5
+  },
+  {
+    "service": "Amazon S3",
+    "region": "us-east-1",
+    "month": "March 2025",
+    "storage_gb": 500,
+    "cost_usd": 22.75
+  },
+  {
+    "service": "AWS Lambda",
+    "region": "us-west-2",
+    "month": "March 2025",
+    "invocations": 150000,
+    "cost_usd": 12.4
+  },
+  {
+    "service": "Amazon RDS",
+    "region": "us-east-2",
+    "month": "March 2025",
+    "usage_hours": 200,
+    "cost_usd": 140.0
+  },
+  {
+    "service": "Amazon CloudFront",
+    "region": "global",
+    "month": "March 2025",
+    "data_transfer_gb": 1000,
+    "cost_usd": 45.6
+  }
+]

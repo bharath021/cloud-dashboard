@@ -1,0 +1,35 @@
+fastapi
+uvicorn
+
+Full Project Structure (cloud-dashboard)
+cloud-dashboard/
+├── cloud-dashboard-backend/        # Backend (FastAPI)
+│   ├── app/
+│   │   └── main.py                  # FastAPI application
+│   ├── aws_billing_data.json        # JSON file with AWS billing data
+│   ├── requirements.txt             # Backend dependencies
+│   └── README.md                    # Project overview file
+│
+├── frontend-dashboard/              # Frontend (React.js)
+│   ├── public/
+│   │   └── index.html                # HTML template
+│   ├── src/
+│   │   ├── App.js                    # Main React app
+│   │   └── index.js                  # React app entry point
+│   ├── package.json                  # Frontend dependencies
+│   ├── package-lock.json             # Lock file for npm
+│   └── README.md                     # (Optional) Frontend README
+│
+└── README.md                         # (Optional) Top-level master README
+📌 What’s Inside
+#Folder/File                                     #Purpose
+cloud-dashboard-backend/app/main.py :-            main.py	FastAPI backend code     
+cloud-dashboard-backend/aws_billing_data.json :- AWS billing sample data
+cloud-dashboard-backend/requirements.txt :- List of backend libraries
+frontend-dashboard/src/App.js :- Full React app (Dark Mode, Search, Pie Chart, etc.)
+frontend-dashboard/package.json :- React app libraries
+🛠️ Local Development Commands
+Backend (FastAPI)     
+uvicorn app.main:app --reload
+Frontend (React)
+npm start (inside frontend-dashboard/)
